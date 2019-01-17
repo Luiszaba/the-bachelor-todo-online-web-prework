@@ -29,7 +29,7 @@ def count_contestants_by_hometown(data, hometown)
     count
 end
 
-def get_occupation(data, hometown)
+
 def get_occupation(data, hometown)
   data.each do |season, contestants|
     contestants.each do |contestant_hash|
