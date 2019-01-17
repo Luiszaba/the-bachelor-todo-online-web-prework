@@ -47,7 +47,7 @@ data[season].each do |contestants|
   age_average += (contestants["age"]).to_i
   contestant_total += 1
 end
-(age_average) / contestant_total.to_f).round(0)
+(age_average / contestant_total.to_f).round(0)
 end
   
   
