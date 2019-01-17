@@ -9,7 +9,7 @@ end
 
 def get_contestant_name(data, occupation)
   data[occupation].each do |contestants, job|
-    return
+    contestants
 end
 end
 
